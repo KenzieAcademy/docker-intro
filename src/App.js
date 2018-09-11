@@ -5,6 +5,7 @@ const { REACT_APP_DOCKER } = process.env;
 
 class App extends Component {
   render() {
+    console.log(process.env)
     return (
       <div className="App">
         <header className="App-header">
